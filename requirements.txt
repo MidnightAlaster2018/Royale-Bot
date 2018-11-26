@@ -1,0 +1,3 @@
+pip
+discord.py[voice] ~= 0.16.0
+aiohttp ~= 2.3.10
