@@ -62,4 +62,4 @@ async def on_message(message):
         await client.send_message(message.channel, "%s" %(" ".join(args[1:])))
 
         
-client.run("NTE2Mzk4ODY0NTI2MjEzMTIx.Dt2tWA.vYyW5EaZ1fXpfOtD7w_e5InEdyM")
+client.run(process.env.TOKEN)
