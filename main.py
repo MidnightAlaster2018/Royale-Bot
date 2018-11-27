@@ -61,5 +61,5 @@ async def on_message(message):
         #args[1:] =Hey There
         await client.send_message(message.channel, "%s" %(" ".join(args[1:])))
 
-        
-client.run(process.env.TOKEN)
+token = os.environ.get("TOKEN")
+client.run(f'{token}')
